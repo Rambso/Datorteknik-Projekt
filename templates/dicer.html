@@ -1,0 +1,20 @@
+<html>
+<body style="background-color:gray">
+
+<h1 style="color:Tomato">Welcome to the Dicer (to roll: XdY+Z)</h1>
+
+<form action="{{ url_for ("dice")}}" method="post">
+    <label for="ammount">| How many dice? |</label><br>
+    <input type="number" VALUE="0" id="ammount" name="ammount"><br>
+
+    <label for="sides">| how many sides? |</label><br>
+    <input type="number" VALUE="0" id="sides" name="sides"><br>
+
+    <label for="append">| bonus? |</label><br>
+    <input type="number" VALUE="0" id="append" name="append"><br>
+
+    <button type="submit">Roll!</button>
+</form>
+<img src="https://cdn.discordapp.com/attachments/830913413844566076/1079174212469661816/00009-4251828033.png">
+</body>
+</html>
